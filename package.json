@@ -1,23 +1,17 @@
 {
-  "author": "Yu You <youyu.youyu@gmail.com> (http://youyu.info/)",
   "name": "liblas",
+  "version": "1.0.0",
   "description": "Node.JS for LibLas, a LAS point cloud toolkit",
-  "version": "0.1",
+  "keywords": ["liblas","las"],
   "repository": {
     "type": "git",
     "url": "https://github.com/yuyou/liblas4node"
   },
-  "main": "liblas.js",
-  "engines": {
-    "node": "*"
-  },
+  "main": "./lib/liblas",
   "dependencies": {
-  },
-  "devDependencies": {
-    "liblas": "~1.7.0",
-  },
-  "scripts": {
-    "test": "tap test/*.js"
+    "ffi": "1.0.7",
+    "ref": "*",
+    "ref-struct": "*"
   },
   "license": "BSD"
 }
